@@ -21,7 +21,6 @@ fn jprint_ngrams(v: &Vec<u8>) {
                 print!("{:?}", ngram);
                 break;
             }
-
             let ngram = &v[i..end];
             if end == last_elem_index {
                 print!("{:?}", ngram);
@@ -36,7 +35,6 @@ fn jprint_ngrams(v: &Vec<u8>) {
         }
         else {
             print!("],");
-        
         }
     }
     print!("}}");
